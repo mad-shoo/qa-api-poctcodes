@@ -39,10 +39,12 @@ public class PostCodeHelper {
     public static HttpResponse postRequest(String URI, JSONObject json) throws IOException {
         HttpPost request = new HttpPost(URI);
         request.addHeader("content-type", "application/json");
+        LOGGER.info(String.valueOf("PostRequest--------"+json));
         StringEntity userEntity = new StringEntity(json.toJSONString());
         request.setEntity(userEntity);
         response = client.execute(request);
         LOGGER.info(String.valueOf(response));
         return response;
     }
+
 }

@@ -12,8 +12,8 @@ import java.util.Properties;
 public class TestConfig {
 
     static Properties config;
-    public static String URI;
-    public static String TestEnv;
+    private static String URI;
+    private static String TestEnv;
     final static Logger LOGGER = LoggerFactory.getLogger(TestConfig.class);
 
     public static void loadConfig() {
