@@ -1,5 +1,6 @@
 package www.postcodes.io.tests;
 
+import Junit5.tags.PostCodeOne;
 import TestHelper.PostCodeHelper;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -27,6 +28,7 @@ import java.util.Map;
 import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
+@PostCodeOne
 public class PostCodeResourceTests {
     private HttpClient client;
     private final static Logger LOGGER = LoggerFactory.getLogger(PostCodeResourceTests.class);
