@@ -1,5 +1,5 @@
 .idea
-/target
-/log
+target
+log
 *.iml
 *.DS_Store
