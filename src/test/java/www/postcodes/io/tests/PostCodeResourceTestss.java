@@ -121,23 +121,6 @@ public class PostCodeResourceTestss {
         }
     }
 
-    private void getPostcodeByPathParameterValidationss(HttpResponse response, Boolean invalidPostCode) throws ParseException, IOException {
-        HttpEntity httpEntity = response.getEntity();
-        String respOutput = EntityUtils.toString(httpEntity);
-        LOGGER.info(String.valueOf(respOutput));
-        Object respJson = new JSONParser().parse(respOutput);
-        JSONObject jsonObject = (JSONObject) respJson;
-        if (Boolean.TRUE.equals(invalidPostCode)) {
-            Assert.assertEquals(404, response.getStatusLine().getStatusCode());
-            Assert.assertNull(jsonObject.get("result"));
-            Assert.assertEquals("Invalid postcode", jsonObject.get("error"));
-        } else {
-            Assert.assertEquals(200, response.getStatusLine().getStatusCode());
-            Map result = ((Map) jsonObject.get("result"));
-            Assert.assertEquals(TestConfig.getConfigElement("postCodeOne"), result.get("postcode"));
-        }
-    }
-
     private void postPostCodesValidations(HttpResponse response, Boolean invalidPostCode) throws IOException, ParseException {
         Map result = (Map) getJsonResponse(response).get(0);
         Assert.assertEquals(200, response.getStatusLine().getStatusCode());
