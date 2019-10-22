@@ -228,7 +228,6 @@ public class PostCodeResourceTestss {
     }
 
 
-
     @After
     public void shutdown() {
         client.getConnectionManager().shutdown();
