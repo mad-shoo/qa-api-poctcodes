@@ -138,25 +138,6 @@ public class PostCodeResourceTestss {
         }
     }
 
-   /* private HttpResponse postPostcodeRequest(Boolean invalidPostCode) throws IOException, ParseException {
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + File.separator + "src/test/Resources/Post_postcodes.json"));
-        JSONObject jsonObject = (JSONObject) obj;
-        JSONArray postcodes = new JSONArray();
-        if (Boolean.TRUE.equals(invalidPostCode)) {
-            postcodes.add(TestConfig.getConfigElement("invalidPostCodeOne"));
-            postcodes.add(TestConfig.getConfigElement("invalidPostCodeTwo"));
-        } else {
-            postcodes.add(TestConfig.getConfigElement("postCodeOne"));
-            postcodes.add(TestConfig.getConfigElement("postCodeTwo"));
-        }
-        jsonObject.put("postcodes", postcodes);
-        Assert.assertNotNull(jsonObject);
-        Assert.assertNotNull(TestConfig.getURI());
-        HttpResponse resp = PostCodeHelper.postRequest(TestConfig.getURI(), jsonObject);
-        Assert.assertNotNull(resp);
-        return resp;
-    }*/
-
     private void postPostCodesValidations(HttpResponse response, Boolean invalidPostCode) throws IOException, ParseException {
         Map result = (Map) getJsonResponse(response).get(0);
         Assert.assertEquals(200, response.getStatusLine().getStatusCode());
