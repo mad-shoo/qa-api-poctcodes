@@ -29,9 +29,9 @@ import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
 @PostCodeTwo
-public class PostCodeResourceTestss {
+public class PostCodeResourceDuplicateTests {
     private HttpClient client;
-    private final static Logger LOGGER = LoggerFactory.getLogger(PostCodeResourceTestss.class);
+    private final static Logger LOGGER = LoggerFactory.getLogger(PostCodeResourceDuplicateTests.class);
 
     @Before
     public void loadConfig() {
