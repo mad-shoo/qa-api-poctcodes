@@ -158,7 +158,7 @@ public class PostCodeResourceTestss {
             Assert.assertNull(EntityUtils.toString(response.getEntity()));
         } else {
             result = (Map) getJsonResponse(response).get(0);
-            Assert.assertEquals(TestConfig.getConfigElement("postCodeOne"), result.get("postcode"));
+            Assert.assertEquals(TestConfig.getConfigElement("postCodeTwo"), result.get("postcode"));
         }
     }
 
@@ -170,17 +170,6 @@ public class PostCodeResourceTestss {
         return (JSONArray) jsonObject.get("result");
     }
 
-    public JSONObject getJsonResponse(HttpResponse response, String method) throws IOException, ParseException {
-        String respOutput = EntityUtils.toString(response.getEntity());
-        LOGGER.info(String.valueOf(respOutput));
-        Object respJson = new JSONParser().parse(respOutput);
-        JSONObject jsonObject = (JSONObject) respJson;
-        if (method.equalsIgnoreCase("post")) {
-            return jsonObject;
-        } else
-        return (JSONObject) jsonObject.get("result");
-    }
-
     private HttpResponse postPostcodeRequest(Boolean invalidPostCode) throws IOException, ParseException {
         Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + File.separator + "src/test/Resources/Post_postcodess.json"));
         JSONObject jsonObject = (JSONObject) obj;
@@ -190,9 +179,6 @@ public class PostCodeResourceTestss {
         Assert.assertNotNull(resp);
         return resp;
     }
-
-
-
 
     @After
     public void shutdown() {
