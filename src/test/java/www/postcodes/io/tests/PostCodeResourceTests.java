@@ -75,7 +75,7 @@ public class PostCodeResourceTests {
         postPostCodesValidations(postResponse, TRUE);
     }
 
-    @Test
+    /*@Test
     public void getPostCodesByQueryParameterValidPostCodeTest() throws IOException, ParseException, URISyntaxException {
         HttpResponse getResponse = getPostcodeByQueryParameterRequest(FALSE);
         getPostCodesByQueryParameterValidations(getResponse, FALSE);
@@ -85,7 +85,7 @@ public class PostCodeResourceTests {
     public void getPostCodesByQueryParameterInvalidPostCodeTest() throws IOException, ParseException, URISyntaxException {
         HttpResponse getResponse = getPostcodeByQueryParameterRequest(TRUE);
         getPostCodesByQueryParameterValidations(getResponse, TRUE);
-    }
+    }*/
 
 
     private HttpResponse getPostcodeByPathParameterRequest(String caseFormat, Boolean invalidPostCode) throws IOException, URISyntaxException {
