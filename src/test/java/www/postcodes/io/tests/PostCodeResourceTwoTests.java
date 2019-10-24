@@ -1,7 +1,7 @@
 package www.postcodes.io.tests;
 
 import Junit5.tags.PostCodeTwo;
-import TestHelper.PostCodeHelper;
+import test.TestHelper.PostCodeHelper;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;

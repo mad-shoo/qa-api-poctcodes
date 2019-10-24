@@ -1,1025 +1,378 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-    <component name="ChangeListManager">
-        <list default="true" id="62e1a7d3-6a16-4ce2-ac04-313ff56e8de5" name="Default Changelist" comment=""/>
-        <ignored path="$PROJECT_DIR$/target/"/>
-        <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true"/>
-        <option name="SHOW_DIALOG" value="false"/>
-        <option name="HIGHLIGHT_CONFLICTS" value="true"/>
-        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false"/>
-        <option name="LAST_RESOLUTION" value="IGNORE"/>
-    </component>
-    <component name="FUSProjectUsageTrigger">
-        <session id="1554378893">
-            <usages-collector id="statistics.lifecycle.project">
-                <counts>
-                    <entry key="project.open.time.2" value="1"/>
-                    <entry key="project.opened" value="1"/>
-                </counts>
-            </usages-collector>
-            <usages-collector id="statistics.file.types.open">
-                <counts>
-                    <entry key="CLASS" value="5"/>
-                    <entry key="JAVA" value="19"/>
-                    <entry key="JSON" value="4"/>
-                    <entry key="PLAIN_TEXT" value="2"/>
-                    <entry key="Properties" value="2"/>
-                    <entry key="XML" value="7"/>
-                </counts>
-            </usages-collector>
-            <usages-collector id="statistics.file.types.edit">
-                <counts>
-                    <entry key="JAVA" value="1902"/>
-                    <entry key="JSON" value="8"/>
-                    <entry key="PLAIN_TEXT" value="6"/>
-                    <entry key="Properties" value="93"/>
-                </counts>
-            </usages-collector>
-        </session>
-    </component>
-    <component name="FileEditorManager">
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="115">
-            <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTests.java">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="2294">
-                            <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176"/>
-                            <folding>
-                                <element signature="imports" expanded="true"/>
-                                <element signature="e#9090#9091#0" expanded="true"/>
-                                <element signature="e#9146#9147#0" expanded="true"/>
-                            </folding>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/pom.xml">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="405">
-                            <caret line="27" column="53" lean-forward="true" selection-start-line="27"
-                                   selection-start-column="53" selection-end-line="27" selection-end-column="53"/>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/config/TestConfig.java">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="360">
-                            <caret line="31" column="33" selection-end-line="61"/>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/test/Resources/logback.xml">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="210">
-                            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14"/>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/test/Resources/Post_postcodes.json">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="30">
-                            <caret line="2" column="1" selection-start-line="2" selection-start-column="1"
-                                   selection-end-line="2" selection-end-column="1"/>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/target/postCode.log">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="631">
-                            <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137"/>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/target/test-classes/logback.xml">
-                    <provider selected="true" editor-type-id="text-editor"/>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/java/TestHelper/PostCodeHelper.java">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="177">
-                            <caret line="14" column="35" lean-forward="true" selection-start-line="14"
-                                   selection-start-column="35" selection-end-line="14" selection-end-column="35"/>
-                            <folding>
-                                <element signature="imports" expanded="true"/>
-                            </folding>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-                <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="300">
-                            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23"/>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-            <file pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/config/config.properties">
-                    <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="135">
-                            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9"/>
-                        </state>
-                    </provider>
-                </entry>
-            </file>
-        </leaf>
-    </component>
-    <component name="IdeDocumentHistory">
-        <option name="CHANGED_PATHS">
-            <list>
-                <option value="$PROJECT_DIR$/src/main/java/com/postcodes/data/PostCodesTestData.java"/>
-                <option value="$PROJECT_DIR$/src/main/java/IoPostCodes/PostCodesResponseWTO.java"/>
-                <option value="$PROJECT_DIR$/src/main/java/wto/PostCodesResponseWTO.java"/>
-                <option value="$PROJECT_DIR$/src/main/java/wto/PostCodesRequestWTO.java"/>
-                <option value="$PROJECT_DIR$/src/test/Resources/postcodes/post_postcodes.json"/>
-                <option value="$PROJECT_DIR$/src/main/java/constants/Uri.java"/>
-                <option value="$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/SerialisationHelper.java"/>
-                <option value="$PROJECT_DIR$/src/main/java/TestHelper/PostCodeResourceTests.java"/>
-                <option value="$PROJECT_DIR$/src/test/java/www/postcodes/io/TestHelper/PostCodeHelper.java"/>
-                <option value="$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodesApiTests.java"/>
-                <option value="$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTests.java"/>
-                <option value="$PROJECT_DIR$/src/test/java/www/postcodes/io/config/TestConfig.java"/>
-                <option value="$PROJECT_DIR$/src/main/java/TestHelper/PostCodeHelper.java"/>
-                <option value="$PROJECT_DIR$/config/config.properties"/>
-                <option value="$PROJECT_DIR$/src/test/Resources/logback.xml"/>
-                <option value="$PROJECT_DIR$/pom.xml"/>
-            </list>
-        </option>
-    </component>
-    <component name="ProjectFrameBounds" extendedState="6">
-        <option name="y" value="23"/>
-        <option name="width" value="1440"/>
-        <option name="height" value="821"/>
-    </component>
-    <component name="ProjectView">
-        <navigator proportions="" version="1">
-            <autoscrollFromSource ProjectPane="true"/>
-            <foldersAlwaysOnTop value="true"/>
-        </navigator>
-        <panes>
-            <pane id="ProjectPane">
-                <subPane>
-                    <expand>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="config" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="main" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="main" type="462c0819:PsiDirectoryNode"/>
-                            <item name="java" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="main" type="462c0819:PsiDirectoryNode"/>
-                            <item name="java" type="462c0819:PsiDirectoryNode"/>
-                            <item name="TestHelper" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test" type="462c0819:PsiDirectoryNode"/>
-                            <item name="java" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test" type="462c0819:PsiDirectoryNode"/>
-                            <item name="java" type="462c0819:PsiDirectoryNode"/>
-                            <item name="io" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test" type="462c0819:PsiDirectoryNode"/>
-                            <item name="java" type="462c0819:PsiDirectoryNode"/>
-                            <item name="io" type="462c0819:PsiDirectoryNode"/>
-                            <item name="config" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test" type="462c0819:PsiDirectoryNode"/>
-                            <item name="java" type="462c0819:PsiDirectoryNode"/>
-                            <item name="io" type="462c0819:PsiDirectoryNode"/>
-                            <item name="tests" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="src" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test" type="462c0819:PsiDirectoryNode"/>
-                            <item name="Resources" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="target" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="target" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test-classes" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="target" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test-classes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="www" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="target" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test-classes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="www" type="462c0819:PsiDirectoryNode"/>
-                            <item name="postcodes" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="target" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test-classes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="www" type="462c0819:PsiDirectoryNode"/>
-                            <item name="postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="io" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="target" type="462c0819:PsiDirectoryNode"/>
-                            <item name="test-classes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="www" type="462c0819:PsiDirectoryNode"/>
-                            <item name="postcodes" type="462c0819:PsiDirectoryNode"/>
-                            <item name="io" type="462c0819:PsiDirectoryNode"/>
-                            <item name="config" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode"/>
-                            <item name="rt.jar" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode"/>
-                            <item name="rt.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="java" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode"/>
-                            <item name="rt.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="java" type="462c0819:PsiDirectoryNode"/>
-                            <item name="lang" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode"/>
-                            <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode"/>
-                            <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="junit" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode"/>
-                            <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="junit" type="462c0819:PsiDirectoryNode"/>
-                            <item name="internal" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode"/>
-                            <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="junit" type="462c0819:PsiDirectoryNode"/>
-                            <item name="internal" type="462c0819:PsiDirectoryNode"/>
-                            <item name="runners" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode"/>
-                            <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="junit" type="462c0819:PsiDirectoryNode"/>
-                            <item name="internal" type="462c0819:PsiDirectoryNode"/>
-                            <item name="runners" type="462c0819:PsiDirectoryNode"/>
-                            <item name="model" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: org.apache.httpcomponents:httpclient:4.5.10"
-                                  type="70bed36:NamedLibraryElementNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: org.apache.httpcomponents:httpclient:4.5.10"
-                                  type="70bed36:NamedLibraryElementNode"/>
-                            <item name="httpclient-4.5.10.jar" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: org.apache.httpcomponents:httpclient:4.5.10"
-                                  type="70bed36:NamedLibraryElementNode"/>
-                            <item name="httpclient-4.5.10.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="http" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: org.apache.httpcomponents:httpclient:4.5.10"
-                                  type="70bed36:NamedLibraryElementNode"/>
-                            <item name="httpclient-4.5.10.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="http" type="462c0819:PsiDirectoryNode"/>
-                            <item name="client" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                        <path>
-                            <item name="qa-api-postcodes" type="b2602c69:ProjectViewProjectNode"/>
-                            <item name="External Libraries" type="cb654da1:ExternalLibrariesNode"/>
-                            <item name="Maven: org.apache.httpcomponents:httpclient:4.5.10"
-                                  type="70bed36:NamedLibraryElementNode"/>
-                            <item name="httpclient-4.5.10.jar" type="462c0819:PsiDirectoryNode"/>
-                            <item name="http" type="462c0819:PsiDirectoryNode"/>
-                            <item name="client" type="462c0819:PsiDirectoryNode"/>
-                            <item name="methods" type="462c0819:PsiDirectoryNode"/>
-                        </path>
-                    </expand>
-                    <select/>
-                </subPane>
-            </pane>
-            <pane id="PackagesPane"/>
-            <pane id="Scope"/>
-        </panes>
-    </component>
-    <component name="PropertiesComponent">
-        <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp"
-                  value="1570121037647"/>
-        <property name="last_opened_file_path" value="$USER_HOME$"/>
-        <property name="project.structure.last.edited" value="Project"/>
-        <property name="project.structure.proportion" value="0.0"/>
-        <property name="project.structure.side.proportion" value="0.0"/>
-    </component>
-    <component name="RecentsManager">
-        <key name="CopyFile.RECENT_KEYS">
-            <recent name="$PROJECT_DIR$/src/test/Resources"/>
-            <recent name="$PROJECT_DIR$/src/main/java"/>
-        </key>
-        <key name="CopyClassDialog.RECENTS_KEY">
-            <recent name="www.postcodes.io.TestHelper"/>
-            <recent name="TestHelper"/>
-            <recent name="www.postcodes.io.tests"/>
-            <recent name="constants"/>
-            <recent name="com.postcodes.data"/>
-        </key>
-        <key name="MoveFile.RECENT_KEYS">
-            <recent name="$PROJECT_DIR$/src/test"/>
-        </key>
-    </component>
-    <component name="RunDashboard">
-        <option name="ruleStates">
-            <list>
-                <RuleState>
-                    <option name="name" value="ConfigurationTypeDashboardGroupingRule"/>
-                </RuleState>
-                <RuleState>
-                    <option name="name" value="StatusDashboardGroupingRule"/>
-                </RuleState>
-            </list>
-        </option>
-    </component>
-    <component name="RunManager" selected="JUnit.PostCodeResourceTests.getPostCodesByQueryParameterInvalidPostCodeTest">
-        <configuration default="true" type="Applet" factoryName="Applet">
-            <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration default="true" type="Application" factoryName="Application">
-            <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="PostCodeResourceTests.getPostCodesByPathParameterInvalidPostCodesWithLowerCaseTest"
-                       type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-            <module name="qa-api-postcodes"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="www.postcodes.io.tests.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="www.postcodes.io.tests"/>
-            <option name="MAIN_CLASS_NAME" value="www.postcodes.io.tests.PostCodeResourceTests"/>
-            <option name="METHOD_NAME" value="getPostCodesByPathParameterInvalidPostCodesWithLowerCaseTest"/>
-            <option name="TEST_OBJECT" value="method"/>
-            <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="PostCodeResourceTests.getPostCodesByQueryParameterInvalidPostCodeTest" type="JUnit"
-                       factoryName="JUnit" temporary="true" nameIsGenerated="true">
-            <module name="qa-api-postcodes"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="www.postcodes.io.tests.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="www.postcodes.io.tests"/>
-            <option name="MAIN_CLASS_NAME" value="www.postcodes.io.tests.PostCodeResourceTests"/>
-            <option name="METHOD_NAME" value="getPostCodesByQueryParameterInvalidPostCodeTest"/>
-            <option name="TEST_OBJECT" value="method"/>
-            <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="PostCodeResourceTests.getPostCodesByQueryParameterValidPostCodeTest" type="JUnit"
-                       factoryName="JUnit" temporary="true" nameIsGenerated="true">
-            <module name="qa-api-postcodes"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="www.postcodes.io.tests.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="www.postcodes.io.tests"/>
-            <option name="MAIN_CLASS_NAME" value="www.postcodes.io.tests.PostCodeResourceTests"/>
-            <option name="METHOD_NAME" value="getPostCodesByQueryParameterValidPostCodeTest"/>
-            <option name="TEST_OBJECT" value="method"/>
-            <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="PostCodeResourceTests.postInvalidPostCodesTest" type="JUnit" factoryName="JUnit"
-                       temporary="true" nameIsGenerated="true">
-            <module name="qa-api-postcodes"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="www.postcodes.io.tests.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="www.postcodes.io.tests"/>
-            <option name="MAIN_CLASS_NAME" value="www.postcodes.io.tests.PostCodeResourceTests"/>
-            <option name="METHOD_NAME" value="postInvalidPostCodesTest"/>
-            <option name="TEST_OBJECT" value="method"/>
-            <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration name="PostCodeResourceTests.postValidPostCodesTest" type="JUnit" factoryName="JUnit"
-                       temporary="true" nameIsGenerated="true">
-            <module name="qa-api-postcodes"/>
-            <extension name="coverage">
-                <pattern>
-                    <option name="PATTERN" value="www.postcodes.io.tests.*"/>
-                    <option name="ENABLED" value="true"/>
-                </pattern>
-            </extension>
-            <option name="PACKAGE_NAME" value="www.postcodes.io.tests"/>
-            <option name="MAIN_CLASS_NAME" value="www.postcodes.io.tests.PostCodeResourceTests"/>
-            <option name="METHOD_NAME" value="postValidPostCodesTest"/>
-            <option name="TEST_OBJECT" value="method"/>
-            <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration default="true" type="JUnit" factoryName="JUnit">
-            <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration default="true" type="TestNG" factoryName="TestNG">
-            <option name="WORKING_DIRECTORY" value="$MODULE_DIR$"/>
-            <properties/>
-            <listeners/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType"
-                       factoryName="Plugin">
-            <module name=""/>
-            <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea"/>
-            <option name="PROGRAM_PARAMETERS"/>
-            <predefined_log_file id="idea.log" enabled="true"/>
-            <method v="2">
-                <option name="Make" enabled="true"/>
-            </method>
-        </configuration>
-        <list>
-            <item itemvalue="JUnit.PostCodeResourceTests.getPostCodesByPathParameterInvalidPostCodesWithLowerCaseTest"/>
-            <item itemvalue="JUnit.PostCodeResourceTests.postValidPostCodesTest"/>
-            <item itemvalue="JUnit.PostCodeResourceTests.postInvalidPostCodesTest"/>
-            <item itemvalue="JUnit.PostCodeResourceTests.getPostCodesByQueryParameterValidPostCodeTest"/>
-            <item itemvalue="JUnit.PostCodeResourceTests.getPostCodesByQueryParameterInvalidPostCodeTest"/>
-        </list>
-        <recent_temporary>
-            <list>
-                <item itemvalue="JUnit.PostCodeResourceTests.getPostCodesByQueryParameterInvalidPostCodeTest"/>
-                <item itemvalue="JUnit.PostCodeResourceTests.getPostCodesByQueryParameterValidPostCodeTest"/>
-                <item itemvalue="JUnit.PostCodeResourceTests.postInvalidPostCodesTest"/>
-                <item itemvalue="JUnit.PostCodeResourceTests.postValidPostCodesTest"/>
-                <item itemvalue="JUnit.PostCodeResourceTests.getPostCodesByPathParameterInvalidPostCodesWithLowerCaseTest"/>
-            </list>
-        </recent_temporary>
-    </component>
-    <component name="SvnConfiguration">
-        <configuration/>
-    </component>
-    <component name="TaskManager">
-        <task active="true" id="Default" summary="Default task">
-            <changelist id="62e1a7d3-6a16-4ce2-ac04-313ff56e8de5" name="Default Changelist" comment=""/>
-            <created>1570011538026</created>
-            <option name="number" value="Default"/>
-            <option name="presentableId" value="Default"/>
-            <updated>1570011538026</updated>
-        </task>
-        <servers/>
-    </component>
-    <component name="TestHistory">
-        <history-entry
-                file="PostCodeResourceTests_getPostCodesByPathParameterValidPostCodesWithLowerCaseTest - 2019.10.03 at 17h 29m 43s.xml">
-            <configuration name="PostCodeResourceTests.getPostCodesByPathParameterValidPostCodesWithLowerCaseTest"
-                           configurationId="JUnit"/>
-        </history-entry>
-        <history-entry
-                file="PostCodeResourceTests_getPostCodesByPathParameterValidPostCodesWithLowerCaseTest - 2019.10.03 at 17h 30m 02s.xml">
-            <configuration name="PostCodeResourceTests.getPostCodesByPathParameterValidPostCodesWithLowerCaseTest"
-                           configurationId="JUnit"/>
-        </history-entry>
-        <history-entry
-                file="PostCodeResourceTests_getPostCodesByPathParameterValidPostCodesWithUpperCaseTest - 2019.10.03 at 17h 30m 08s.xml">
-            <configuration name="PostCodeResourceTests.getPostCodesByPathParameterValidPostCodesWithUpperCaseTest"
-                           configurationId="JUnit"/>
-        </history-entry>
-        <history-entry
-                file="PostCodeResourceTests_getPostCodesByPathParameterInvalidPostCodesWithUpperCaseTest - 2019.10.03 at 17h 30m 20s.xml">
-            <configuration name="PostCodeResourceTests.getPostCodesByPathParameterInvalidPostCodesWithUpperCaseTest"
-                           configurationId="JUnit"/>
-        </history-entry>
-        <history-entry
-                file="PostCodeResourceTests_getPostCodesByPathParameterInvalidPostCodesWithLowerCaseTest - 2019.10.03 at 17h 30m 28s.xml">
-            <configuration name="PostCodeResourceTests.getPostCodesByPathParameterInvalidPostCodesWithLowerCaseTest"
-                           configurationId="JUnit"/>
-        </history-entry>
-        <history-entry file="PostCodeResourceTests_postValidPostCodesTest - 2019.10.03 at 17h 30m 34s.xml">
-            <configuration name="PostCodeResourceTests.postValidPostCodesTest" configurationId="JUnit"/>
-        </history-entry>
-        <history-entry file="PostCodeResourceTests_postInvalidPostCodesTest - 2019.10.03 at 17h 30m 39s.xml">
-            <configuration name="PostCodeResourceTests.postInvalidPostCodesTest" configurationId="JUnit"/>
-        </history-entry>
-        <history-entry
-                file="PostCodeResourceTests_getPostCodesByQueryParameterValidPostCodeTest - 2019.10.03 at 17h 30m 44s.xml">
-            <configuration name="PostCodeResourceTests.getPostCodesByQueryParameterValidPostCodeTest"
-                           configurationId="JUnit"/>
-        </history-entry>
-        <history-entry
-                file="PostCodeResourceTests_getPostCodesByQueryParameterInvalidPostCodeTest - 2019.10.03 at 17h 30m 50s.xml">
-            <configuration name="PostCodeResourceTests.getPostCodesByQueryParameterInvalidPostCodeTest"
-                           configurationId="JUnit"/>
-        </history-entry>
-        <history-entry
-                file="PostCodeResourceTests_getPostCodesByQueryParameterInvalidPostCodeTest - 2019.10.03 at 17h 33m 56s.xml">
-            <configuration name="PostCodeResourceTests.getPostCodesByQueryParameterInvalidPostCodeTest"
-                           configurationId="JUnit"/>
-        </history-entry>
-    </component>
-    <component name="ToolWindowManager">
-        <frame x="4" y="23" width="1440" height="834" extended-state="6"/>
-        <layout>
-            <window_info id="Image Layers"/>
-            <window_info id="Designer"/>
-            <window_info id="UI Designer"/>
-            <window_info id="Capture Tool"/>
-            <window_info id="Favorites" side_tool="true"/>
-            <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22317597"/>
-            <window_info id="Structure" order="1" side_tool="true" weight="0.25"/>
-            <window_info anchor="bottom" id="SonarLint"/>
-            <window_info anchor="bottom" id="Version Control" show_stripe_button="false"/>
-            <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32884097"/>
-            <window_info anchor="bottom" id="Event Log" side_tool="true"/>
-            <window_info anchor="bottom" id="Messages" weight="0.32884097"/>
-            <window_info anchor="bottom" id="FindBugs-IDEA"/>
-            <window_info anchor="bottom" id="Message" order="0"/>
-            <window_info anchor="bottom" id="Find" order="1" weight="0.32884097"/>
-            <window_info anchor="bottom" id="Run" order="2" weight="0.40161726"/>
-            <window_info anchor="bottom" id="Debug" order="3" weight="0.41778976"/>
-            <window_info anchor="bottom" id="Cvs" order="4" weight="0.25"/>
-            <window_info anchor="bottom" id="Inspection" order="5" weight="0.4"/>
-            <window_info anchor="bottom" id="TODO" order="6"/>
-            <window_info anchor="right" id="Palette"/>
-            <window_info anchor="right" id="Theme Preview"/>
-            <window_info anchor="right" id="Capture Analysis"/>
-            <window_info anchor="right" id="Maven Projects"/>
-            <window_info anchor="right" id="Palette&#9;"/>
-            <window_info anchor="right" id="Commander" order="0" weight="0.4"/>
-            <window_info anchor="right" id="Ant Build" order="1" weight="0.25"/>
-            <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25"/>
-        </layout>
-        <layout-to-restore>
-            <window_info id="Image Layers" order="0"/>
-            <window_info id="Designer" order="1"/>
-            <window_info id="UI Designer" order="2"/>
-            <window_info id="Capture Tool" order="3"/>
-            <window_info id="Favorites" order="4" side_tool="true"/>
-            <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.20886981"/>
-            <window_info id="Structure" order="6" side_tool="true" weight="0.25"/>
-            <window_info anchor="bottom" id="FindBugs-IDEA" order="0"/>
-            <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false"/>
-            <window_info anchor="bottom" id="SonarLint" order="2"/>
-            <window_info anchor="bottom" id="Terminal" order="3"/>
-            <window_info anchor="bottom" id="Event Log" order="4" side_tool="true"/>
-            <window_info anchor="bottom" id="Message" order="5"/>
-            <window_info anchor="bottom" id="Find" order="6"/>
-            <window_info anchor="bottom" id="Run" order="7"/>
-            <window_info anchor="bottom" id="Debug" order="8" weight="0.4"/>
-            <window_info anchor="bottom" id="Cvs" order="9" weight="0.25"/>
-            <window_info anchor="bottom" id="Inspection" order="10" weight="0.4"/>
-            <window_info anchor="bottom" id="TODO" order="11"/>
-            <window_info anchor="right" id="Palette" order="0"/>
-            <window_info anchor="right" id="Capture Analysis" order="1"/>
-            <window_info anchor="right" id="Theme Preview" order="2"/>
-            <window_info anchor="right" id="Palette&#9;" order="3"/>
-            <window_info anchor="right" id="Maven Projects" order="4"/>
-            <window_info anchor="right" id="Commander" order="5" weight="0.4"/>
-            <window_info anchor="right" id="Ant Build" order="6" weight="0.25"/>
-            <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25"/>
-        </layout-to-restore>
-    </component>
-    <component name="VcsContentAnnotationSettings">
-        <option name="myLimit" value="2678400000"/>
-    </component>
-    <component name="XDebuggerManager">
-        <breakpoint-manager>
-            <breakpoints>
-                <line-breakpoint enabled="true" type="java-line">
-                    <url>file://$PROJECT_DIR$/src/main/java/TestHelper/PostCodeHelper.java</url>
-                    <line>31</line>
-                    <properties/>
-                    <option name="timeStamp" value="11"/>
-                </line-breakpoint>
-                <line-breakpoint enabled="true" type="java-line">
-                    <url>file://$PROJECT_DIR$/src/main/java/TestHelper/PostCodeHelper.java</url>
-                    <line>24</line>
-                    <properties/>
-                    <option name="timeStamp" value="15"/>
-                </line-breakpoint>
-                <line-breakpoint enabled="true" type="java-line">
-                    <url>file://$PROJECT_DIR$/src/main/java/TestHelper/PostCodeHelper.java</url>
-                    <line>32</line>
-                    <properties/>
-                    <option name="timeStamp" value="23"/>
-                </line-breakpoint>
-                <line-breakpoint enabled="true" type="java-line">
-                    <url>file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTests.java</url>
-                    <line>164</line>
-                    <properties/>
-                    <option name="timeStamp" value="29"/>
-                </line-breakpoint>
-                <line-breakpoint enabled="true" type="java-line">
-                    <url>file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTests.java</url>
-                    <line>171</line>
-                    <properties/>
-                    <option name="timeStamp" value="30"/>
-                </line-breakpoint>
-                <line-breakpoint enabled="true" type="java-line">
-                    <url>file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTests.java</url>
-                    <line>178</line>
-                    <properties/>
-                    <option name="timeStamp" value="31"/>
-                </line-breakpoint>
-            </breakpoints>
-        </breakpoint-manager>
-    </component>
-    <component name="editorHistoryManager">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/client/methods/HttpPost.class">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                    <caret line="19" column="11" selection-start-line="19" selection-start-column="11"
-                           selection-end-line="19" selection-end-column="11"/>
-                    <folding>
-                        <element signature="e#413#414#0" expanded="true"/>
-                        <element signature="e#457#458#0" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
+  <component name="ChangeListManager">
+    <list default="true" id="1edb1f72-9382-41b8-894f-4b68f289ce58" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestHelper/PostCodeHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/TestHelper/PostCodeHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceOneTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceOneTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTwoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTwoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestHelper/PostCodeHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestHelper/PostCodeHelper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/postCode.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/postCode.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/www/postcodes/io/config/TestConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/www/postcodes/io/config/TestConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/www/postcodes/io/tests/PostCodeResourceTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/www/postcodes/io/tests/PostCodeResourceTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/www/postcodes/io/tests/PostCodesApiTests.class" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1012006068">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="193">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTwoTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-870">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/postcodes/data/PostCodesTestData.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                    <caret line="10" column="15" selection-start-line="10" selection-start-column="15"
-                           selection-end-line="10" selection-end-column="15"/>
-                    <folding>
-                        <element signature="e#334#335#0" expanded="true"/>
-                        <element signature="e#364#365#0" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/test/TestHelper/PostCodeHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/postcodes/post_postcodes.json">
-            <provider selected="true" editor-type-id="text-editor">
-                <state>
-                    <caret column="1" selection-start-column="1" selection-end-column="1"/>
-                </state>
-            </provider>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceOneTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
-        <entry file="file://$PROJECT_DIR$/src/main/java/constants/Uri.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                    <caret line="4" column="72" selection-start-line="4" selection-start-column="72"
-                           selection-end-line="4" selection-end-column="72"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/SerialisationHelper.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-390">
-                    <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9"
-                           selection-end-line="25" selection-end-column="9"/>
-                    <folding>
-                        <element signature="imports" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/target/test-classes/www/postcodes/io/config/TestConfig.class">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-327">
-                    <folding>
-                        <element signature="e#0#1986#0" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
-        </entry>
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.10/httpclient-4.5.10.jar!/org/apache/http/client/methods/HttpGet.class">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                    <caret line="9" column="13" selection-start-line="9" selection-start-column="13"
-                           selection-end-line="9" selection-end-column="13"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Boolean.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                    <caret line="224" selection-start-line="224" selection-end-line="225"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/target/test-classes/Post_postcodes.json">
-            <provider selected="true" editor-type-id="text-editor"/>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/TestHelper/PostCodeHelper.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="13">
-                    <caret line="20" column="13" selection-start-line="20" selection-start-column="13"
-                           selection-end-line="20" selection-end-column="13"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/main/java/wto/CodesResponseWTO.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                    <caret line="2" column="13" selection-start-line="2" selection-start-column="13"
-                           selection-end-line="2" selection-end-column="13"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/main/java/wto/PostCodesRequestWTO.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                    <caret line="4" column="13" selection-start-line="4" selection-start-column="13"
-                           selection-end-line="4" selection-end-column="13"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/main/java/wto/PostCodesResponseWTO.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1132">
-                    <caret line="20" column="26" selection-start-line="20" selection-start-column="26"
-                           selection-end-line="20" selection-end-column="26"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/target/test-classes/logback.xml">
-            <provider selected="true" editor-type-id="text-editor"/>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/target/postCode.log">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="631">
-                    <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                    <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodesApiTests.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1414">
-                    <caret line="152" column="84" selection-start-line="152" selection-start-column="84"
-                           selection-end-line="152" selection-end-column="84"/>
-                    <folding>
-                        <element signature="imports" expanded="true"/>
-                        <element signature="e#8630#8631#0" expanded="true"/>
-                        <element signature="e#8686#8687#0" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/Post_postcodes.json">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                    <caret line="2" column="1" selection-start-line="2" selection-start-column="1"
-                           selection-end-line="2" selection-end-column="1"/>
-                </state>
-            </provider>
-        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/config/TestConfig.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                    <caret line="31" column="33" selection-end-line="61"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/test/Resources/logback.xml">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                    <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                    <caret line="27" column="53" lean-forward="true" selection-start-line="27"
-                           selection-start-column="53" selection-end-line="27" selection-end-column="53"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/config/config.properties">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                    <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9"/>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTests.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2294">
-                    <caret line="176" lean-forward="true" selection-start-line="176" selection-end-line="176"/>
-                    <folding>
-                        <element signature="imports" expanded="true"/>
-                        <element signature="e#9090#9091#0" expanded="true"/>
-                        <element signature="e#9146#9147#0" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
-        </entry>
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestHelper/PostCodeHelper.java">
-            <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="177">
-                    <caret line="14" column="35" lean-forward="true" selection-start-line="14"
-                           selection-start-column="35" selection-end-line="14" selection-end-column="35"/>
-                    <folding>
-                        <element signature="imports" expanded="true"/>
-                    </folding>
-                </state>
-            </provider>
-        </entry>
-    </component>
-    <component name="masterDetails">
-        <states>
-            <state key="GlobalLibrariesConfigurable.UI">
-                <settings>
-                    <splitter-proportions>
-                        <option name="proportions">
-                            <list>
-                                <option value="0.2"/>
-                            </list>
-                        </option>
-                    </splitter-proportions>
-                </settings>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
-            <state key="JdkListConfigurable.UI">
-                <settings>
-                    <last-edited>1.6</last-edited>
-                    <splitter-proportions>
-                        <option name="proportions">
-                            <list>
-                                <option value="0.2"/>
-                            </list>
-                        </option>
-                    </splitter-proportions>
-                </settings>
-            </state>
-            <state key="ProjectJDKs.UI">
-                <settings>
-                    <last-edited>1.8</last-edited>
-                    <splitter-proportions>
-                        <option name="proportions">
-                            <list>
-                                <option value="0.2"/>
-                            </list>
-                        </option>
-                    </splitter-proportions>
-                </settings>
-            </state>
-            <state key="ProjectLibrariesConfigurable.UI">
-                <settings>
-                    <splitter-proportions>
-                        <option name="proportions">
-                            <list>
-                                <option value="0.2"/>
-                            </list>
-                        </option>
-                    </splitter-proportions>
-                </settings>
-            </state>
-        </states>
-    </component>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/test/TestHelper/PostCodeHelper.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="68" />
+    <option name="y" value="23" />
+    <option name="width" value="1286" />
+    <option name="height" value="774" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tags" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestHelper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="postcodes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qa-api-postcodes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1edb1f72-9382-41b8-894f-4b68f289ce58" name="Default Changelist" comment="" />
+      <created>1571944908442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571944908442</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="68" y="23" width="1286" height="774" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28376207" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.7052786" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/test/TestHelper/PostCodeHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/config/TestConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceOneTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/www/postcodes/io/tests/PostCodeResourceTwoTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-870">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
 </project>

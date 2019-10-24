@@ -1,4 +1,4 @@
-package TestHelper;
+package test.TestHelper;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;

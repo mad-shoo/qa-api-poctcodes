@@ -4,11 +4,11 @@
         <file>target/postCode.log</file>
         <append>true</append>
         <encoder>
-            <pattern>%d [%thread] %-5level  %logger{35} - %msg%n</pattern>
+            <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
         </encoder>
     </appender>
 
     <root level="TRACE">
-        <appender-ref ref="fileAppender" />
+        <appender-ref ref="fileAppender"/>
     </root>
 </configuration>
