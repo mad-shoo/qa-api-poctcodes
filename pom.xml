@@ -115,10 +115,11 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.22.0</version>
                     <configuration>
+                        <parallel>methods</parallel>
                         <threadCount>10</threadCount>
-                        <reuseForks>true</reuseForks>
-                         <parallel>methods</parallel>
                         <forkCount>2</forkCount>
+                        <reuseForks>true</reuseForks>
+                        <parallelTestsTimeoutInSeconds>300</parallelTestsTimeoutInSeconds>
                     </configuration>
                 </plugin>
             </plugins>
