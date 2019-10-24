@@ -2,7 +2,6 @@ package www.postcodes.io.tests;
 
 import Junit5.tags.PostCodeTwo;
 import TestHelper.PostCodeHelper;
-import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
@@ -29,38 +28,14 @@ import static java.lang.Boolean.FALSE;
 import static java.lang.Boolean.TRUE;
 
 @PostCodeTwo
-public class PostCodeResourceDuplicateTests {
+public class PostCodeResourceTwoTests {
     private HttpClient client;
-    private final static Logger LOGGER = LoggerFactory.getLogger(PostCodeResourceDuplicateTests.class);
+    private final static Logger LOGGER = LoggerFactory.getLogger(PostCodeResourceTwoTests.class);
 
     @Before
     public void loadConfig() {
         TestConfig.loadConfig();
         client = HttpClientBuilder.create().build();
-    }
-
-    @Test
-    public void getPostCodesByPathParameterValidPostCodesWithLowerCaseTest() throws IOException, ParseException, URISyntaxException {
-        HttpResponse getResponse = getPostcodeByPathParameterRequest("LowerCase", FALSE);
-        getPostcodeByPathParameterValidations(getResponse, FALSE);
-    }
-
-    @Test
-    public void getPostCodesByPathParameterValidPostCodesWithUpperCaseTest() throws IOException, ParseException, URISyntaxException {
-        HttpResponse getResponse = getPostcodeByPathParameterRequest("UpperCase", FALSE);
-        getPostcodeByPathParameterValidations(getResponse, FALSE);
-    }
-
-    @Test
-    public void getPostCodesByPathParameterInvalidPostCodesWithUpperCaseTest() throws IOException, ParseException, URISyntaxException {
-        HttpResponse getResponse = getPostcodeByPathParameterRequest("UpperCase", TRUE);
-        getPostcodeByPathParameterValidations(getResponse, TRUE);
-    }
-
-    @Test
-    public void getPostCodesByPathParameterInvalidPostCodesWithLowerCaseTest() throws IOException, ParseException, URISyntaxException {
-        HttpResponse getResponse = getPostcodeByPathParameterRequest("LowerCase", TRUE);
-        getPostcodeByPathParameterValidations(getResponse, TRUE);
     }
 
     @Test
@@ -85,40 +60,6 @@ public class PostCodeResourceDuplicateTests {
     public void getPostCodesByQueryParameterInvalidPostCodeTest() throws IOException, ParseException, URISyntaxException {
         HttpResponse getResponse = getPostcodeByQueryParameterRequest(TRUE);
         getPostCodesByQueryParameterValidations(getResponse, TRUE);
-    }
-
-    private HttpResponse getPostcodeByPathParameterRequest(String caseFormat, Boolean invalidPostCode) throws IOException, URISyntaxException {
-        String postCode;
-        if (Boolean.TRUE.equals(invalidPostCode)) {
-            postCode = TestConfig.getConfigElement("invalidPostCodeOne");
-        } else
-            postCode = TestConfig.getConfigElement("path_parameter_postcode");
-        Assert.assertNotNull(postCode);
-        Assert.assertNotNull(TestConfig.getURI());
-        HttpResponse resp;
-        if (caseFormat.equalsIgnoreCase("LowerCase")) {
-            resp = PostCodeHelper.getRequest(TestConfig.getURI(), postCode.toLowerCase(), FALSE);
-        } else
-            resp = PostCodeHelper.getRequest(TestConfig.getURI(), postCode.toUpperCase(), FALSE);
-        Assert.assertNotNull(resp);
-        return resp;
-    }
-
-    private void getPostcodeByPathParameterValidations(HttpResponse response, Boolean invalidPostCode) throws ParseException, IOException {
-        HttpEntity httpEntity = response.getEntity();
-        String respOutput = EntityUtils.toString(httpEntity);
-        LOGGER.info(String.valueOf(respOutput));
-        Object respJson = new JSONParser().parse(respOutput);
-        JSONObject jsonObject = (JSONObject) respJson;
-        if (Boolean.TRUE.equals(invalidPostCode)) {
-            Assert.assertEquals(404, response.getStatusLine().getStatusCode());
-            Assert.assertNull(jsonObject.get("result"));
-            Assert.assertEquals("Invalid postcode", jsonObject.get("error"));
-        } else {
-            Assert.assertEquals(200, response.getStatusLine().getStatusCode());
-            Map result = ((Map) jsonObject.get("result"));
-            Assert.assertEquals(TestConfig.getConfigElement("postCodeOne"), result.get("postcode"));
-        }
     }
 
     private void postPostCodesValidations(HttpResponse response, Boolean invalidPostCode) throws IOException, ParseException {
@@ -171,7 +112,7 @@ public class PostCodeResourceDuplicateTests {
     }
 
     private HttpResponse postPostcodeRequest(Boolean invalidPostCode) throws IOException, ParseException {
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + File.separator + "src/test/Resources/Post_postcodess.json"));
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + File.separator + "src/test/Resources/Post_postcodes.json"));
         JSONObject jsonObject = (JSONObject) obj;
         Assert.assertNotNull(jsonObject);
         Assert.assertNotNull(TestConfig.getURI());
