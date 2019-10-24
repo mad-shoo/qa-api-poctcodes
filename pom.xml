@@ -116,7 +116,7 @@
                     <version>2.22.0</version>
                     <configuration>
                         <threadCount>10</threadCount>
-                        <reuseForks>false</reuseForks>
+                        <reuseForks>true</reuseForks>
                          <parallel>classes</parallel>
                         <forkCount>2</forkCount>
                     </configuration>
