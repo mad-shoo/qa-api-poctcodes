@@ -117,7 +117,7 @@
                     <configuration>
                         <threadCount>10</threadCount>
                         <reuseForks>true</reuseForks>
-                         <parallel>classes</parallel>
+                         <parallel>methods</parallel>
                         <forkCount>2</forkCount>
                     </configuration>
                 </plugin>
