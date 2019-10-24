@@ -112,7 +112,7 @@ public class PostCodeResourceTwoTests {
     }
 
     private HttpResponse postPostcodeRequest(Boolean invalidPostCode) throws IOException, ParseException {
-        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + File.separator + "src/test/Resources/Post_postcodes.json"));
+        Object obj = new JSONParser().parse(new FileReader(System.getProperty("user.dir") + File.separator + "src/test/Resources/Post_postcodes_two.json"));
         JSONObject jsonObject = (JSONObject) obj;
         Assert.assertNotNull(jsonObject);
         Assert.assertNotNull(TestConfig.getURI());
