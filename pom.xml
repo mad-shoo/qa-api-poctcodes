@@ -120,10 +120,6 @@
                         <reuseForks>false</reuseForks>
                          <parallel>classes</parallel>
                         <forkCount>2</forkCount>
-                        <properties>
-                            <includeTags>${Tags}</includeTags>
-                            <excludeTags>Skip, WIP</excludeTags>
-                        </properties>
                     </configuration>
                 </plugin>
             </plugins>
