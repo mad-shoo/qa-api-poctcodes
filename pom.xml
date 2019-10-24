@@ -118,7 +118,7 @@
                         <parallel>methods</parallel>
                         <threadCount>10</threadCount>
                         <forkCount>2</forkCount>
-                        <reuseForks>true</reuseForks>
+                        <reuseForks>false</reuseForks>
                         <parallelTestsTimeoutInSeconds>300</parallelTestsTimeoutInSeconds>
                     </configuration>
                 </plugin>
