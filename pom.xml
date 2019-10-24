@@ -115,7 +115,6 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>2.22.0</version>
                     <configuration>
-                        <trimStackTrace>false</trimStackTrace>
                         <threadCount>10</threadCount>
                         <reuseForks>false</reuseForks>
                          <parallel>classes</parallel>
