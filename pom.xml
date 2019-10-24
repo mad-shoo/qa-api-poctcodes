@@ -120,10 +120,6 @@
                         <reuseForks>false</reuseForks>
                          <parallel>classes</parallel>
                         <forkCount>2</forkCount>
-                        <includes>
-                            <include>**/*Test.java</include>
-                            <include>**/*Tests.java</include>
-                        </includes>
                         <properties>
                             <includeTags>${Tags}</includeTags>
                             <excludeTags>Skip, WIP</excludeTags>
